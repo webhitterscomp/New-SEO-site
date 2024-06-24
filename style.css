@@ -590,6 +590,15 @@ p {
     /* Box shadow */
 }
 
+.ipadscreen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    /* margin-top: 20px; */
+}
+
 
 
 
@@ -606,6 +615,7 @@ p {
 
     .logo {
         display: none;
+
     }
 
     ul {
@@ -741,6 +751,7 @@ p {
     .navbtn {
         display: none;
 
+
     }
 
     .mainformdiv {
@@ -774,6 +785,16 @@ p {
     .secondbox {
         margin-top: 20px;
     }
+
+    .ipadscreen {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 20px; */
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -916,20 +937,27 @@ p {
 
     h1 {
         font-size: larger;
-        
+
     }
-    #submit{
+
+    #submit {
         height: 50px;
         width: 95%;
         margin-left: 6px;
         /* margin-right: 10px; */
     }
-    .headingh1text{
+
+    .headingh1text {
         font-size: x-large;
     }
-    .spantext1{
-            align-items: center;
-            justify-content: center;
+
+    .spantext1 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-section {
+        display: none;
     }
 
 
@@ -937,10 +965,9 @@ p {
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-
     ul {
-        padding-left: 25px;
-        padding-right: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     ul li {
@@ -1005,7 +1032,11 @@ p {
     }
 
     nav {
-        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .icon-div1 {
@@ -1077,5 +1108,53 @@ p {
     .logo {
         height: 120px !important;
     }
+
+    .ipadscreen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .secondbox {
+        margin-top: 20px;
+    }
+
+    .ourbox {
+        margin-top: 20px;
+    }
+
+    .br {
+        display: none;
+    }
+
+    .textoipadscree {
+        font-size: medium;
+    }
+
+    .spantext1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbtn {
+        height: 40px;
+        display: flex;
+    }
+
+    .navbtn button {
+        height: 60px;
+        margin-left: 0px;
+        margin-left: 15px;
+    }
+
+    .logo {
+        margin: 0px;
+        padding: 0px;
+    }
+
 
 }
