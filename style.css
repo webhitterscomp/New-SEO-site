@@ -255,7 +255,9 @@ input[type="text"]::placeholder {
     margin-top: 50px;
     height: 45px;
 }
-
+#boxbtofbooking{
+    margin-top: 100px;
+}
 .btn:hover {
     background-color: white;
     color: black;
@@ -297,7 +299,7 @@ input[type="text"]::placeholder {
 .oursection {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 .ourbox {
@@ -384,19 +386,21 @@ span {
     justify-content: center;
     color: #212529;
 }
-.mainboxofdiv1{
-     /* padding-right:; */
+
+.mainboxofdiv1 {
+    /* padding-right:; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    margin-top: 28px;
 }
 
 .secondboxmain {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 .secondbox:hover {
@@ -424,7 +428,7 @@ span {
 
 }
 
-.secondbox { 
+.secondbox {
     margin-right: 10px;
     border-radius: 15px;
     opacity: 0.7;
@@ -650,17 +654,20 @@ p {
 
 }
 
+
 .ans1,
 .ans2,
 .ans3,
 .ans4,
 .ans5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 0px;
     padding: 0px 0px;
     background: #f1f1f1;
-    margin-left: 100px;
     height: 70px;
-    width: 80%;
+    width: 100%;
     display: none;
 }
 
@@ -675,16 +682,23 @@ p {
 .textoipadscree {
     color: #212529;
 }
-.headingh1text{
-    padding: 0px ;
+
+.headingh1text {
+    padding: 0px;
     margin: 0px;
 }
-.questionboxone{
+
+.questionboxone {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  
 }
+/* #herop-p-text{
+ font-weight: bold;
+} */
+
 @media (max-width: 768px) {
     #mianbox1 {
         flex-direction: column-reverse !important;
@@ -708,7 +722,7 @@ p {
 
     ul li {
         font-size: 14px !important;
-        margin-left: 30px;
+        margin-left: 25px;
         font-size: 16px;
         padding: 0px 0px;
     }
@@ -751,6 +765,9 @@ p {
         padding: 9px 18px;
         font-size: 13px;
         border-radius: 9px;
+    }
+    #boxbtofbooking{
+        margin-top: 10px;
     }
 
     .secondboxmain {
@@ -882,6 +899,9 @@ p {
     .ans3,
     .ans4,
     .ans5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: fit-content;
         display: flex;
         align-items: center;
@@ -889,6 +909,7 @@ p {
         padding: 0px 0px;
         margin: 0px 0px;
         display: none;
+        width: 80%;
 
     }
 
@@ -1071,15 +1092,20 @@ p {
     }
 
     .imgofseo {
+        display: flex   ;
+        align-items: center ;
+        justify-content: center ;
         height: 400px;
-        width: 380px;
+        width: 90%;
+         padding: 10px 10px;
+         margin-left: 8px;
     }
 
     .herotextmain {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0px 0px;
+        padding: 10px 10px;
     }
 
     h1 {
