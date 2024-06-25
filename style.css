@@ -238,7 +238,7 @@ input[type="text"]::placeholder {
     /* margin-left: 50px; */
     margin-top: 30px;
     border: 2px solid white;
-    background-color:#d34f54;
+    background-color: #d34f54;
     color: white;
     padding: 10px 20px;
     cursor: pointer;
@@ -368,7 +368,7 @@ span {
 
 .headingh1 {
     margin: 0px 0px;
-    color:#d34f54;
+    color: #d34f54;
 }
 
 .icon1 {
@@ -652,20 +652,18 @@ p {
     width: 80%;
     display: none;
 }
-.question:hover{
+
+.question:hover {
     cursor: pointer;
 }
-.img{
+
+.img {
     border-radius: 15px;
 }
-.textoipadscree{
-    color:  #212529;
+
+.textoipadscree {
+    color: #212529;
 }
-
-
-
-
-
 
 @media (max-width: 768px) {
     #mianbox1 {
@@ -890,7 +888,6 @@ p {
         display: flex;
         align-items: center;
         justify-content: left;
-
         margin: 0px 10px;
         padding: 0px 0px;
         border-radius: 2px solid red;
@@ -917,17 +914,18 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* border-radius: 1px; */
     }
-    .img{
+
+    .img {
         height: 400px;
         width: 340px;
         border-radius: 15px;
     }
-    .footer-section ul li{
+
+    .footer-section ul li {
         padding-left: 0px;
     }
-   
+
 }
 
 @media (max-width: 600px) {
@@ -997,7 +995,6 @@ p {
     .h4 {
         font-size: small;
         font-family: sans-serif;
-        /* margin-right: 20px !important; */
     }
 
     .artical-tag-p {
@@ -1007,8 +1004,6 @@ p {
 
     .article {
         height: 483px;
-
-
     }
 
     .artical-tag h2 {
@@ -1022,12 +1017,10 @@ p {
     }
 
     .article img {
-
         width: 349px !important;
         margin-top: 0px;
         margin-bottom: 0px;
         margin-right: 0px;
-
     }
 
     .resources-section {
@@ -1057,7 +1050,6 @@ p {
     }
 
     .imgofseo {
-        /* margin-left:50px ; */
         height: 400px;
         width: 380px;
     }
@@ -1071,14 +1063,12 @@ p {
 
     h1 {
         font-size: larger;
-
     }
 
     #submit {
         height: 50px;
         width: 95%;
         margin-left: 6px;
-        /* margin-right: 10px; */
     }
 
     .headingh1text {
@@ -1139,9 +1129,7 @@ p {
     }
 
     img {
-
         height: 350px !important;
-        /* margin-right: 20px; */
     }
 
     input[type="text"] {
@@ -1174,7 +1162,6 @@ p {
     }
 
     .icon-div1 {
-        /* display: none; */
         margin-right: 0px;
         margin-left: 0px;
         gap: 20px;
@@ -1186,7 +1173,6 @@ p {
         align-items: center;
         justify-content: center;
         margin-top: 0px;
-
     }
 
     .footer-content {
@@ -1214,7 +1200,6 @@ p {
 
     #aboutmetext {
         margin-top: 0px;
-
     }
 
     .h4 {
