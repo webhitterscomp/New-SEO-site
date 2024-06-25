@@ -869,6 +869,7 @@ p {
         justify-content: center;
         padding: 0px 0px;
         margin: 0px 0px;
+        display: none;
 
     }
 
@@ -926,7 +927,7 @@ p {
     .footer-section ul li{
         padding-left: 0px;
     }
-    
+   
 }
 
 @media (max-width: 600px) {
