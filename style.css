@@ -29,6 +29,7 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1000;
+    height: 112px;
     /* font-weight: bold; */
 
 }
@@ -38,15 +39,15 @@ nav {
     font-family: cursive;
     margin-left: 50px;
     border: 2px solid white;
-    background-color: #D40436;
+    background-color: #d34f54;
     color: white;
-    padding: 10px 20px;
+
     cursor: pointer;
     font-size: 17px;
     transition: background-color 0.3s, color 0.3s;
     outline: none;
     border-radius: 10px;
-    height: 50px;
+    height: 42px;
     font-weight: bold;
     font-family: auto;
 }
@@ -98,7 +99,7 @@ ul li:hover {
 
     fill: black;
     width: 20px;
-    height: 40px;
+    height: 35px;
     transition: background-color 0.3s;
 }
 
@@ -237,7 +238,7 @@ input[type="text"]::placeholder {
     /* margin-left: 50px; */
     margin-top: 30px;
     border: 2px solid white;
-    background-color: #D40436;
+    background-color:#d34f54;
     color: white;
     padding: 10px 20px;
     cursor: pointer;
@@ -248,6 +249,11 @@ input[type="text"]::placeholder {
     height: 50px;
     margin-left: 0px;
     font-weight: bold;
+}
+
+#boxbtn {
+    margin-top: 50px;
+    height: 45px;
 }
 
 .btn:hover {
@@ -349,7 +355,7 @@ input[type="text"]::placeholder {
 }
 
 span {
-    color: #D40436 !important;
+    color: #d34f54 !important;
 }
 
 .footer-sectionli {
@@ -361,7 +367,8 @@ span {
 }
 
 .headingh1 {
-    color: #D40436;
+    margin: 0px 0px;
+    color:#d34f54;
 }
 
 .icon1 {
@@ -390,6 +397,7 @@ span {
 .textofform {
     display: flex;
     flex-direction: column;
+    height: 500px;
 
 }
 
@@ -566,7 +574,7 @@ a svg:hover {
 
 h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: 30px;
 }
 
@@ -596,7 +604,62 @@ p {
     align-items: center;
     flex-direction: row;
     gap: 10px;
-    /* margin-top: 20px; */
+
+}
+
+.question h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.question1,
+.question2,
+.question3,
+.question4,
+.question5 {
+
+    width: 80%;
+    background: #d34f54;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+    /* margin-top: 10px */
+}
+
+.questionplusicon {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    width: 275px;
+    fill: white;
+
+}
+
+.ans1,
+.ans2,
+.ans3,
+.ans4,
+.ans5 {
+    margin-top: 0px;
+    padding: 0px 0px;
+    background: #f1f1f1;
+    margin-left: 100px;
+    height: 70px;
+    width: 80%;
+    display: none;
+}
+.question:hover{
+    cursor: pointer;
+}
+.img{
+    border-radius: 15px;
+}
+.textoipadscree{
+    color:  #212529;
 }
 
 
@@ -795,6 +858,75 @@ p {
         /* margin-top: 20px; */
     }
 
+    .ans1,
+    .ans2,
+    .ans3,
+    .ans4,
+    .ans5 {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px;
+        margin: 0px 0px;
+
+    }
+
+    .ansp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding-top: 20px; */
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .question1,
+    .question2,
+    .question3,
+    .question4,
+    .question5 {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+        margin: 0px 10px;
+        padding: 0px 0px;
+        border-radius: 2px solid red;
+
+    }
+
+    .questionplusicon {
+        width: 50px;
+
+    }
+
+    .question {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .questionboxone {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        margin: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border-radius: 1px; */
+    }
+    .img{
+        height: 400px;
+        width: 340px;
+        border-radius: 15px;
+    }
+    .footer-section ul li{
+        padding-left: 0px;
+    }
+    
 }
 
 @media (max-width: 600px) {
@@ -924,6 +1056,7 @@ p {
     }
 
     .imgofseo {
+        /* margin-left:50px ; */
         height: 400px;
         width: 380px;
     }
