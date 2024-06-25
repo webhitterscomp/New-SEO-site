@@ -270,7 +270,7 @@ input[type="text"]::placeholder {
 .mainbox {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 .box {
@@ -297,7 +297,7 @@ input[type="text"]::placeholder {
 .oursection {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:center;
 }
 
 .ourbox {
@@ -309,6 +309,7 @@ input[type="text"]::placeholder {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 10px;
 
     /* background: #000; */
 }
@@ -377,15 +378,25 @@ span {
 }
 
 .herotextmain {
-    padding-left: 9.625rem;
+    /* padding-left: 9.625rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #212529;
+}
+.mainboxofdiv1{
+     /* padding-right:; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .secondboxmain {
     display: flex;
-
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .secondbox:hover {
@@ -413,7 +424,8 @@ span {
 
 }
 
-.secondbox {
+.secondbox { 
+    margin-right: 10px;
     border-radius: 15px;
     opacity: 0.7;
     padding-top: 60px;
@@ -600,11 +612,9 @@ p {
 
 .ipadscreen {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
     flex-direction: row;
-    gap: 10px;
-
 }
 
 .question h1 {
@@ -625,7 +635,8 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    padding-left: 50px;
 
     /* margin-top: 10px */
 }
@@ -664,7 +675,16 @@ p {
 .textoipadscree {
     color: #212529;
 }
-
+.headingh1text{
+    padding: 0px ;
+    margin: 0px;
+}
+.questionboxone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 @media (max-width: 768px) {
     #mianbox1 {
         flex-direction: column-reverse !important;
@@ -735,6 +755,7 @@ p {
 
     .secondboxmain {
         flex-direction: column;
+        margin-left: 23px;
     }
 
     nav {
