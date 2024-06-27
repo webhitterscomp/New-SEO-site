@@ -178,13 +178,13 @@ ul li:hover {
 }
 
 .mainformdiv {
-    background: #d6d0d0;
-    border-radius: 15px;
-    margin: 10px 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Banner-Home-page.jpg3.jpg);
+    /* border-radius: 15px; */
+    /* margin: 10px 10px; */
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-    color: black;
+    color: white;
 }
 
 .form {
@@ -255,9 +255,11 @@ input[type="text"]::placeholder {
     margin-top: 50px;
     height: 45px;
 }
-#boxbtofbooking{
+
+#boxbtofbooking {
     margin-top: 100px;
 }
+
 .btn:hover {
     background-color: white;
     color: black;
@@ -283,7 +285,7 @@ input[type="text"]::placeholder {
     height: 500px;
     width: 599px;
     margin: 20px;
-    background-color: #e6f0f4;
+    background-color: #d4d6d6;
     color: black;
     padding: 20px;
     box-sizing: border-box;
@@ -422,8 +424,8 @@ span {
     gap: 12px;
     /* align-items: center; */
     flex-direction: column;
-    opacity: 0.8;
-    color: black;
+    /* opacity: 0.8; */
+    color: white;
     font-weight: 700;
 
 }
@@ -548,15 +550,12 @@ a svg:hover {
 
 
 .article {
-    /* padding: 20px 20px; */
     height: 550px;
     width: 100%;
     border-radius: 8px;
     background-color: #302828;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-
     text-align: center;
-
 }
 
 .article img {
@@ -609,14 +608,12 @@ p {
 }
 
 .imgofseo {
-    border-radius: 20px;
+    /* border-radius: 20px; */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    /* Box shadow */
 }
 
 .ipadscreen {
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
     flex-direction: row;
 }
@@ -680,7 +677,7 @@ p {
 }
 
 .textoipadscree {
-    color: #212529;
+    color: white;
 }
 
 .headingh1text {
@@ -693,11 +690,14 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
+
 }
-/* #herop-p-text{
- font-weight: bold;
-} */
+
+#textwhite {
+    color: white !important;
+
+}
+
 
 @media (max-width: 768px) {
     #mianbox1 {
@@ -766,7 +766,8 @@ p {
         font-size: 13px;
         border-radius: 9px;
     }
-    #boxbtofbooking{
+
+    #boxbtofbooking {
         margin-top: 10px;
     }
 
@@ -968,6 +969,18 @@ p {
         padding-left: 0px;
     }
 
+    .mainformdiv {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .textoipadscree {
+        color: white;
+        margin-left: 10px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -1092,13 +1105,13 @@ p {
     }
 
     .imgofseo {
-        display: flex   ;
-        align-items: center ;
-        justify-content: center ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 400px;
         width: 90%;
-         padding: 10px 10px;
-         margin-left: 8px;
+        padding: 10px 10px;
+        margin-left: 8px;
     }
 
     .herotextmain {
@@ -1297,6 +1310,7 @@ p {
     }
 
     .textoipadscree {
+
         font-size: medium;
     }
 
