@@ -12,7 +12,6 @@ body {
 }
 
 .nav1 {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -30,7 +29,6 @@ nav {
     width: 100%;
     z-index: 1000;
     height: 112px;
-    /* font-weight: bold; */
 
 }
 
@@ -118,10 +116,8 @@ ul li:hover {
 .form-section {
     margin-top: 29px !important;
     margin-bottom: 29px !important;
-
     color: black;
     background-color: white;
-    /* Light blue background */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -179,8 +175,6 @@ ul li:hover {
 
 .mainformdiv {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Banner-Home-page.jpg3.jpg);
-    /* border-radius: 15px; */
-    /* margin: 10px 10px; */
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
@@ -221,7 +215,6 @@ input[type="text"] {
 input[type="text"]::placeholder {
     color: white;
     opacity: 0.6;
-    /* Adjusts the placeholder text opacity */
 }
 
 #website {
@@ -235,7 +228,6 @@ input[type="text"]::placeholder {
 
 .boxbtn {
     font-family: cursive;
-    /* margin-left: 50px; */
     margin-top: 30px;
     border: 2px solid white;
     background-color: #d34f54;
@@ -314,8 +306,6 @@ input[type="text"]::placeholder {
     justify-content: center;
     flex-direction: column;
     margin-left: 10px;
-
-    /* background: #000; */
 }
 
 .ourboxp {
@@ -382,7 +372,6 @@ span {
 }
 
 .herotextmain {
-    /* padding-left: 9.625rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -390,11 +379,9 @@ span {
 }
 
 .mainboxofdiv1 {
-    /* padding-right:; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-right: 20px; */
     margin-top: 28px;
 }
 
@@ -422,9 +409,8 @@ span {
     padding-left: 30px;
     display: flex;
     gap: 12px;
-    /* align-items: center; */
+
     flex-direction: column;
-    /* opacity: 0.8; */
     color: white;
     font-weight: 700;
 
@@ -441,7 +427,6 @@ span {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     height: 200px;
     width: 300px;
-    /* border: 2px solid black; */
 }
 
 ul a {
@@ -521,7 +506,6 @@ footer {
 
 a svg:hover {
     size: 2px;
-    /* display: none; */
 
 }
 
@@ -608,7 +592,7 @@ p {
 }
 
 .imgofseo {
-    /* border-radius: 20px; */
+
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -636,10 +620,7 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    /* margin-left: 100px; */
     padding-left: 50px;
-
-    /* margin-top: 10px */
 }
 
 .questionplusicon {
@@ -892,7 +873,6 @@ p {
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        /* margin-top: 20px; */
     }
 
     .ans1,
@@ -918,7 +898,6 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* padding-top: 20px; */
         height: fit-content;
         width: fit-content;
     }
