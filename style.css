@@ -6,7 +6,11 @@ body {
     scroll-behavior: smooth;
 
 }
-
+.logo{
+    margin-top: 15px;
+    height: 200x;
+    width: 200px;
+}
 #name {
     background-color: white;
 }
